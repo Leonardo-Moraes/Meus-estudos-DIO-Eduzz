@@ -1,0 +1,33 @@
+Semântica 
+<header> cabeçalho da página, ou de parte da página, como cabeçalho de uma section </header>
+<section> Literalmente Seção, significa uma seção genérica para divisão no HTML </section>
+<article> Artigo relevante, também uma forma de seção </article>
+<aside> conteúdo relacionado ao conteúdo principal da página, como uma bibliografia, pela lógica normalmente fica na lateral da página </aside>
+<footer> rodapé, pode ser da página em si, de uma section, etc. </footer>
+
+Textos e links
+<h1-h6> Para títulos e subtítulos, o h1 sendo maior e o h6 a menor das fontes, apenas um h1 por página </h1-h6>
+<p> parágrafo </p>
+<a> Âncora, apontar para algo na página ou fora dela, como links e emails. </a>
+<a href="google.com"> google</a> link para o google se adicionar target="_blank" após o link abrirá em outra página, o target
+abrindo outra página em branco e em seguida colocando o link
+<a href="mailto:email@email.com">email@email.com</a>
+
+imagens
+<img src="caminho_da_imagem/imagem.jpg"> o src é obrigatório, sendo o source, onde ela está arquivada. 
+<img alt="imagem em branco"> é uma descrição da imagem para caso ela não carregue.
+
+Listas para agrupar dados
+<ul> itens sem ter uma ordem definida
+3. item 1
+1. item 2
+</ul>
+
+<ol> ordem definida
+1. item 1
+2. item 3
+</ol>
+
+<li> cada item da lista</li>
+<li> item 1</li>
+<li> item 2</li>
