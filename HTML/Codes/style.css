@@ -1,24 +1,55 @@
 body {
-    background: #fcfcfc;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    background: #E3DACD;
+    width: 70%;
+    margin: auto;
+}
+
+article {
+    font-size: 14px;
 }
 
 #title,
 .subtitle,
 .post-title {
-    color: blue;
+    color: black;
 }
 
 .post-title {
     font-size: 16px;
-    font-style: italic;
+    font-style: bold;
+    margin: 0px;
+    padding: 0px;
 }
 
 .post {
     background: #FFF;
     padding: 10px;
-    border: 3px solid black;
+    border: 3px dotted orangered;
 }
 
 .links:hover {
     background: gold;
+}
+
+.container {
+    margin-top: -15px;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.html {
+    margin-bottom: 10px;
+    margin-top: -15px;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.contacts_list li a:hover {
+    background-color: gold;
 }
